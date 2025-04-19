@@ -1,0 +1,17 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         version="3.0">
+    <display-name>Sample Web App</display-name>
+    <servlet>
+        <servlet-name>SearchServlet</servlet-name>
+        <servlet-class>servlet.SearchServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SearchServlet</servlet-name>
+        <url-pattern>/search</url-pattern>
+    </servlet-mapping>
+
+
+
+</web-app>
+
